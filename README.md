@@ -15,7 +15,7 @@ poetry install --no-root
 poetry run python src/__main__.py
 ```
 
-# Корневая (`TGBotTemplate`) директория
+# Корневая директория
 - `poetry.lock` - библиотеки, которые будут установлены в проект (`poetry add new_library`)
 - `pyproject.toml` - конфиг проекта (название, описание, зависимости и т.д.)
 
