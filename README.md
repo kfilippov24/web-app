@@ -1,3 +1,4 @@
+###Python Bootstrap Flask SQLite
 ### Убедитесь, что `.env` файл содержит валидные значения
 
 # Установка Poetry
