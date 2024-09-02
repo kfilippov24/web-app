@@ -1,0 +1,9 @@
+{% for note in notes %}
+<div>
+    <h3>{{ note.title }}</h3>
+    <p>{{ note.content }}</p>
+    <form method="post" action="/delete_note/{{ note.id }}">
+        <button type="submit" class="btn btn-danger">Удалить</button>
+    </form>
+</div>
+{% endfor %}

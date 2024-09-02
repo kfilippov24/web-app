@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Форма входа</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+</head>
+<body>
+<form class="form" method="POST">
+<h1 class="form_title">Вход</h1>
+<div class="form_group">
+<input class="form_input" placeholder=" " name="email">
+<label class="form_label">Email</label>
+</div>
+<div class="form_group">
+<input class="form_input" placeholder=" " name="password">
+<label class="form_label">Пароль</label>
+</div>
+<button type="submit" class="form_button">Войти</button>
+</form>
+</body>
+</html>
